@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro_css/style.css">
+    <link rel="stylesheet" href="login_css/menu.css">
+    <title>Cadastro</title>
+</head>
+
+
+    <nav id="menu-principal-container">
+    
+        <h1><a href="index.html">HLMA SERVIÇOS</a></h1>
+    
+        <ul id="menu-principal">
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="index.html">Serviços</a></li>
+            <li><a href="login.html">Já tem uma conta?</a></li>
+            
+        </ul>
+    
+    </nav>
+    
+
+<body>
+
+
+    <div class="campo">
+        <h1 id="titulo">Tela de Cadastro</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+
+    </div>
+
+    <form class="ajuste">
+        <fieldset class="grupo">
+
+            <div class="campo">
+
+                <label for="nome"> <strong>Nome Completo</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            
+            <div class="campo">
+
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+
+             </div>
+           
+
+        </fieldset>
+
+        <fieldset class="grupo">
+        <div class="campo">
+
+            <label for="email"><strong>Telefone</strong></label>
+            <input type="text" name="telefone" id="telefone" required>
+
+        </div>
+
+        <div class="campo">
+
+            <label for="email"><strong>Endereço</strong></label>
+            <input type="text" name="Endereco" id="endereco" required>
+
+        </div>
+    </fieldset>
+
+    <div class="campo">
+
+        <label for="email"><strong>CPF/CNPJ</strong></label>
+        <input type="text" name="cpf" id="cpf" required>
+
+    </div>
+
+        <div class="campo">
+            <label><strong>Qual tipo de Serviço Desejado?</strong></label>
+
+            <label>
+                <input type="radio" name="pabx" value="pabx" checked>Pabx
+            </label>
+
+            <label>
+                <input type="radio" name="redeestruturada" value="redeestruturada">Rede Estruturada
+            </label>
+
+            <label>
+                <input type="radio" name="segurancaeletronica" value="segurancaeletronica">Segurança Eletrônica
+            </label>
+
+        </div>
+
+        <div class="campo">
+            <label for="senioridade"><strong>Sexo</strong></label>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Prefiro não dizer</option>
+            </select>
+        </div>
+
+
+        <button class="botao" type="submit">Concluído</button>
+    </form>
+
+    <footer>
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2022 Todos os direitos reservados | <a href="index.html">HLMA SERVIÇOS</a>
+                </div>
+    
+                <div class="information">
+                    <a href="">Informações</a> | <a href="">Privacidade e Política</a> | <a href="">Termos e condições</a>
+                </div>
+        </div>
+    </footer>
+</body>
+
+</html>

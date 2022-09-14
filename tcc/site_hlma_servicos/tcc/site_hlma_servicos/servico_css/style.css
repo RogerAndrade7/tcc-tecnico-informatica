@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,400&display=swap');
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+h1.h1{
+    font-weight: 150px;
+    margin-top: 2%;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+}
+
+
+p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 22px;
+    max-width: 350px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000;
+
+}
+
+.text{
+    margin-top: 25%;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+.text1{
+     border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 25%;
+    float: left;
+    margin-left: 35px;
+}
+.text2{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 25%;
+    float: left;
+    margin-left: 35px;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+    color: #00ff88;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgba(30, 255, 0, 0.856);
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: rgba(30, 255, 0, 0.856);
+}
+
+.container-footer{
+    width: auto;  
+    background: #201b2c;
+}

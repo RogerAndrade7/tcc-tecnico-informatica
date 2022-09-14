@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Orçamento</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="orcamento_css/estilo.css" rel="stylesheet">
+    <link href="orcamento_css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="orcamento_css/style.css">
+    <link rel="stylesheet" href="login_css/menu.css">
+</head>
+
+<nav id="menu-principal-container">
+    <h1><a href="index.html">HLMA SERVIÇOS</a></h1>
+
+    <ul id="menu-principal">
+        <li><a href="agendamento.html">Agendamento</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="visulizaagendamento.html">Visualizar Agendamento</a></li>
+        
+    </ul>
+</nav>
+<body>
+	<section class="sessao-orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Faça seu orçamento</h1>
+            <form>
+              <label for="km">Distância em Km </label>
+              <input type="number" min="1" name="km" id="km" required>
+
+              <label>Produtos a instalar</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="equipamento" id="produto-sim">
+                  <label for="produto-sim">Tenho o produto</label>
+                </div>
+                <div>
+                  <input type="radio" name="equipamento" id="produto-nao">
+                  <label for="produto-nao">Não tenho o produto</label>
+                </div>
+              </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo">  
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+
+
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="container-footer">
+              <div class="footer">
+                  <div class="copyright">
+                      © 2022 Todos os direitos reservados | <a href="index.html">HLMA SERVIÇOS</a>
+                  </div>
+      
+                  <div class="information">
+                      <a href="">Informações</a> | <a href="">Privacidade e Política</a> | <a href="">Termos e condições</a>
+                  </div>
+          </div>
+      </footer>
+</body>
+</html>

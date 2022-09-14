@@ -1,0 +1,65 @@
+body{
+	height: 100vh;
+	width: 100vw;
+}
+
+.carrosel{
+	height: 410px;
+	width: 600px;
+	border-radius: 20px;
+	overflow: hidden;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -15%);
+}
+.navigation{
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+}
+
+.bar{
+	width: 70px;
+	height: 17px;
+	border: 2px solid #fff;
+	margin: 6px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.bar:hover{
+	background-color: #afeeee;
+}
+.radio{
+	display: none;
+}
+
+.slides{
+	display: flex;
+	width: 320%;
+	height: 100%;
+}
+.slide{
+	width: 34%;
+	transition: .6s;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+#ft1:checked ~ .s1{
+	margin-left: 0;
+}
+#ft2:checked ~ .s1{
+	margin-left: -35%;
+}
+#ft3:checked ~.s1{
+	margin-left: -70%;
+}
+
+
+
